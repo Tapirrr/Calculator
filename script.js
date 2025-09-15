@@ -8,7 +8,7 @@ function calculate() {
     const expression = display.value;
     
     if (expression.match(/[0-9]+[+\-*/][0-9]+/)) {
-        display.value = 'LOPYUU 😚😘';
+        display.value = 'UBED ANJING';
     } else {
         try {
             display.value = eval(expression);
@@ -22,4 +22,5 @@ function clearDisplay() {
     const display = document.getElementById('display');
     display.value = '';
 }
+
 
